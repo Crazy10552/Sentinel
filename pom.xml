@@ -52,8 +52,8 @@
 
         <!-- Build -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.source.version>1.7</java.source.version>
-        <java.target.version>1.7</java.target.version>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
         <java.encoding>UTF-8</java.encoding>
         <maven.compiler.version>3.8.0</maven.compiler.version>
         <maven.surefire.version>2.22.1</maven.surefire.version>
@@ -356,7 +356,7 @@
                     </plugin>
                 </plugins>
             </build>
-            <distributionManagement>
+<!--            <distributionManagement>
                 <snapshotRepository>
                     <id>maven-snapshots</id>
                     <url>http://158.220.140.1:8081/repository/maven-snapshots/</url>
@@ -365,8 +365,8 @@
                     <id>maven-releases</id>
                     <url>http://158.220.140.1:8081/repository/maven-releases/</url>
                 </repository>
-            </distributionManagement>
-<!--            <distributionManagement>
+            </distributionManagement>-->
+            <distributionManagement>
                 <snapshotRepository>
                     <id>3rd-party</id>
                     <url>http://158.220.140.1:8081/repository/3rd-party/</url>
@@ -375,11 +375,11 @@
                     <id>3rd-party</id>
                     <url>http://158.220.140.1:8081/repository/3rd-party/</url>
                 </repository>
-            </distributionManagement>-->
+            </distributionManagement>
         </profile>
     </profiles>
     
-<!--     <distributionManagement>
+    <distributionManagement>
                 <snapshotRepository>
                     <id>3rd-party</id>
                     <url>http://158.220.140.1:8081/repository/3rd-party/</url>
@@ -388,8 +388,8 @@
                     <id>3rd-party</id>
                     <url>http://158.220.140.1:8081/repository/3rd-party/</url>
                 </repository>
-            </distributionManagement>-->
-    <distributionManagement>
+            </distributionManagement>
+    <!--<distributionManagement>
                 <snapshotRepository>
                     <id>maven-snapshots</id>
                     <url>http://158.220.140.1:8081/repository/maven-snapshots/</url>
@@ -398,6 +398,6 @@
                     <id>maven-releases</id>
                     <url>http://158.220.140.1:8081/repository/maven-releases/</url>
                 </repository>
-            </distributionManagement>
+            </distributionManagement>-->
 
 </project>
